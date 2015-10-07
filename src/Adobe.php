@@ -2,10 +2,8 @@
 
 namespace Galilee\PPM\SDK\DPS;
 
-use Galilee\PPM\SDK\DPS\Config;
-
 /**
- * Class Adobe
+ * Class Adobe.
  */
 class Adobe
 {
@@ -16,5 +14,4 @@ class Adobe
     {
         $this->settings = $settings;
     }
-
 }

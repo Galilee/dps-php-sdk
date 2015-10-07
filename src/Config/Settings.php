@@ -3,7 +3,7 @@
 namespace Galilee\PPM\SDK\DPS\Config;
 
 /**
- * Class Settings
+ * Class Settings.
  */
 class Settings
 {

@@ -3,7 +3,7 @@
 namespace Galilee\PPM\SDK\DPS\Entity;
 
 /**
- * Class Entity
+ * Class Entity.
  */
 class Entity
 {
