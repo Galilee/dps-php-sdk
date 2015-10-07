@@ -1,6 +1,6 @@
 <?php
 
-namespace Galilee\PPM\SDK\DPS;
+namespace Galilee\PPM\SDK\DPS\Config;
 
 /**
  * Class Settings
@@ -60,7 +60,7 @@ class Settings
      */
     public function setProducerEndpoint($producerEndpoint)
     {
-        $this->producerEndpoint = $producerEndpoint;
+        $this->producerEndpoint = rtrim($producerEndpoint, '/\\');
     }
 
     /**
@@ -76,7 +76,7 @@ class Settings
      */
     public function setAuthenticationEndpoint($authenticationEndpoint)
     {
-        $this->authenticationEndpoint = $authenticationEndpoint;
+        $this->authenticationEndpoint = rtrim($authenticationEndpoint, '/\\');
     }
 
     /**
@@ -92,7 +92,7 @@ class Settings
      */
     public function setAuthorizationEndpoint($authorizationEndpoint)
     {
-        $this->authorizationEndpoint = $authorizationEndpoint;
+        $this->authorizationEndpoint = rtrim($authorizationEndpoint, '/\\');
     }
 
     /**
@@ -108,7 +108,7 @@ class Settings
      */
     public function setIngestionEndpoint($ingestionEndpoint)
     {
-        $this->ingestionEndpoint = $ingestionEndpoint;
+        $this->ingestionEndpoint = rtrim($ingestionEndpoint, '/\\');
     }
 
     /**
@@ -124,7 +124,7 @@ class Settings
      */
     public function setProductEndpoint($productEndpoint)
     {
-        $this->productEndpoint = $productEndpoint;
+        $this->productEndpoint = rtrim($productEndpoint, '/\\');
     }
 
     /**

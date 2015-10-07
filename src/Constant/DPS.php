@@ -1,6 +1,6 @@
 <?php
 
-namespace Galilee\PPM\SDK\DPS;
+namespace Galilee\PPM\SDK\DPS\Constant;
 
 /**
  * Class DPS
